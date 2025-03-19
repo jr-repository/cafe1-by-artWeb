@@ -37,7 +37,7 @@ const Navbar = () => {
             className="flex items-center gap-2 transition-transform duration-300 hover:scale-105"
           >
             <Coffee className="h-7 w-7 text-cafe-700" />
-            <span className="font-serif text-xl font-semibold text-cafe-950">Aroma Nusantara</span>
+            <span className="font-serif text-xl font-semibold text-cafe-950">Aroma Nusantara - by artWeb.</span>
           </NavLink>
 
           {/* Desktop Menu */}

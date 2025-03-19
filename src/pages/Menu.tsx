@@ -176,16 +176,7 @@ const initialMenuItems: MenuItem[] = [
     tags: ["Arabika", "Medium Roast", "Aeropress"],
     popular: false
   },
-  {
-    id: 5,
-    name: "Kopi Susu Aren",
-    description: "Kopi susu dengan gula aren asli yang memberikan rasa karamel yang khas dan lembut.",
-    price: 32000,
-    image: "https://images.unsplash.com/photo-1572286258217-215cf8b273f5?q=80&w=1976&auto=format&fit=crop",
-    category: "Signature Drink",
-    tags: ["Signature", "Sweet", "Cold"],
-    popular: true
-  },
+
   {
     id: 6,
     name: "Es Kopi Pandan",
@@ -196,16 +187,7 @@ const initialMenuItems: MenuItem[] = [
     tags: ["Signature", "Sweet", "Cold"],
     popular: false
   },
-  {
-    id: 7,
-    name: "Kopi Alpukat",
-    description: "Perpaduan kopi dengan alpukat segar yang kaya dan creamy.",
-    price: 39000,
-    image: "https://images.unsplash.com/photo-1589401655014-e43beae27d5a?q=80&w=1974&auto=format&fit=crop",
-    category: "Signature Drink",
-    tags: ["Signature", "Creamy", "Cold"],
-    popular: false
-  },
+
   {
     id: 8,
     name: "Teh Tarik",
@@ -246,46 +228,8 @@ const initialMenuItems: MenuItem[] = [
     tags: ["Rice", "Spicy", "Lunch/Dinner"],
     popular: true
   },
-  {
-    id: 12,
-    name: "Mie Goreng Jawa",
-    description: "Mie goreng dengan bumbu khas Jawa, telur, sayuran dan disajikan dengan acar.",
-    price: 42000,
-    image: "https://images.unsplash.com/photo-1590194083236-873299161af5?q=80&w=1974&auto=format&fit=crop",
-    category: "Makanan Utama",
-    tags: ["Noodle", "Savory", "Lunch/Dinner"],
-    popular: false
-  },
-  {
-    id: 13,
-    name: "Beef Rendang Bowl",
-    description: "Rendang daging sapi yang empuk disajikan dengan nasi putih dan lalapan.",
-    price: 55000,
-    image: "https://images.unsplash.com/photo-1633321702518-7feccafb94f5?q=80&w=1974&auto=format&fit=crop",
-    category: "Makanan Utama",
-    tags: ["Beef", "Spicy", "Lunch/Dinner"],
-    popular: false
-  },
-  {
-    id: 14,
-    name: "Sandwich Tuna",
-    description: "Roti gandum dengan isian tuna mayo, selada, tomat, dan telur.",
-    price: 38000,
-    image: "https://images.unsplash.com/photo-1559054663-e8d23aaa1da7?q=80&w=1974&auto=format&fit=crop",
-    category: "Makanan Ringan",
-    tags: ["Sandwich", "Light", "Breakfast/Lunch"],
-    popular: false
-  },
-  {
-    id: 15,
-    name: "Croissant Almond",
-    description: "Croissant dengan taburan almond dan gula halus yang renyah di luar dan lembut di dalam.",
-    price: 30000,
-    image: "https://images.unsplash.com/photo-1612886623532-5edd9a3c04dc?q=80&w=1974&auto=format&fit=crop",
-    category: "Makanan Ringan",
-    tags: ["Pastry", "Sweet", "Breakfast"],
-    popular: false
-  },
+
+ 
   {
     id: 16,
     name: "Pisang Goreng",
@@ -306,16 +250,7 @@ const initialMenuItems: MenuItem[] = [
     tags: ["Cake", "Sweet", "Afternoon"],
     popular: false
   },
-  {
-    id: 18,
-    name: "Brownies",
-    description: "Brownies coklat dengan tekstur fudgy dan disajikan dengan es krim vanilla.",
-    price: 30000,
-    image: "https://images.unsplash.com/photo-1589375025852-a66cca98a805?q=80&w=1974&auto=format&fit=crop",
-    category: "Dessert",
-    tags: ["Chocolate", "Sweet", "Afternoon"],
-    popular: true
-  }
+
 ];
 
 export default Menu;

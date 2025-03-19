@@ -40,12 +40,7 @@ const Index = () => {
                 alt="Barista brewing coffee" 
                 className="rounded-xl w-full shadow-lg reveal-animation"
               />
-              <img 
-                src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=1974&auto=format&fit=crop" 
-                alt="Coffee cup on table" 
-                className="absolute -bottom-10 -right-10 w-2/3 rounded-xl shadow-lg border-4 border-white reveal-animation"
-                style={{zIndex: 1}}
-              />
+            
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-cafe-100 rounded-lg z-0"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-cafe-200 rounded-lg z-0"></div>
             </div>
@@ -191,11 +186,14 @@ const popularItems = [
     category: "Specialty Coffee"
   },
   {
-    name: "Kopi Susu Aren",
-    price: "Rp 32.000",
-    description: "Kopi susu dengan gula aren asli yang memberikan rasa karamel yang khas.",
-    image: "https://images.unsplash.com/photo-1572286258217-215cf8b273f5?q=80&w=1976&auto=format&fit=crop",
-    category: "Signature Drink"
+    id: 3,
+    name: "Kopi Bali Kintamani",
+    description: "Kopi dengan aroma buah jeruk dan tekstur yang halus, berasal dari dataran tinggi Kintamani.",
+    price: 36000,
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    category: "Specialty Coffee",
+    tags: ["Arabika", "Light Roast", "V60"],
+    popular: false
   },
   {
     name: "Nasi Goreng Kampoeng",
