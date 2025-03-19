@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/cafe1-by-artWeb/", // Tambahkan ini untuk GitHub Pages
+  base: "/cafe1-by-artWeb/", // Tambahkan ini agar GitHub Pages bisa membaca asset
   server: {
     host: "::",
     port: 8080,
